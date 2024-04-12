@@ -1,7 +1,6 @@
 import dandi.dandiarchive as da
 from src.Pipeline import Pipeline, PipelineJob, PipelineJobInput, PipelineJobOutput, PipelineJobRequiredResources, PipelineImportedFile
 from src.utils import _remote_file_exists
-import numpy as np
 
 
 num_assets_to_process = 1
